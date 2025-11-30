@@ -60,7 +60,7 @@ ADK_demo/
 
 1. Clone the Repo
 ```
-git clone https://github.com/AashiDutt/Google-Agent-Development-Kit-Demo.git
+git clone https://github.com/Abhiramkumarsoni/Travel_Agent.git
 cd Google-Agent-Development-Kit-Demo
 ```
 2. Setup Environment
@@ -74,10 +74,13 @@ pip install -r requirements.txt
 Add your OpenAI/Gemini API key:
 
 ```
-export OPENAI_API_KEY="your-api-key"
-
 for window
+setx GOOGLE_API_KEY "your_api_key"
 setx OPENAI_API_KEY "your_key_here"
+
+for max
+export GOOGLE_API_KEY "your_api_key"
+export OPENAI_API_KEY="your-api-key"
 ```
 ## 🔄 Run the Agents and UI
 
