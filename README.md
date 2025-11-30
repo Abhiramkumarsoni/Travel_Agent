@@ -75,6 +75,9 @@ Add your OpenAI/Gemini API key:
 
 ```
 export OPENAI_API_KEY="your-api-key"
+
+for window
+setx OPENAI_API_KEY "your_key_here"
 ```
 ## 🔄 Run the Agents and UI
 
@@ -90,7 +93,7 @@ uvicorn agents.activities_agent.__main__:app --port 8003 &
 Launch the frontend:
 
 ```
-streamlit run streamlit_app.py
+streamlit run ui_travel.py
 ```
 
 ## 🤖 Contributing
